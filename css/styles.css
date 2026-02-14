@@ -19,16 +19,12 @@ li a {
 }
 
 li a:hover {
-  background-color: #111111;
-}
-
-li a {
-  display: block;
-  color: white;
-  padding: 14px 16px;
-  text-decoration: none;
+  background-color: #04AA6D;
 }
 
 li a:hover:not(.active) {
+  background-color: rgb(49, 16, 171);
+
+.active {
   background-color: #04AA6D;
 }
