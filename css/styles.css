@@ -3,17 +3,16 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
-  position: -webkit-sticky; /* Safari */
+  background-color: #333333;
   position: sticky;
   top: 0;
 }
 
-li {
+ul li {
   float: left;
 }
 
-li a {
+ul li a {
   display: block;
   color: white;
   text-align: center;
@@ -21,13 +20,10 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
-  background-color: #04AA6D;
+ul li a:hover {
+  background-color: #111111;
 }
 
-li a:hover:not(.active) {
-  background-color: rgb(49, 16, 171);
-
-.active {
-  background-color: #04AA6D;
+ul li a.active {
+  background-color: #4CAF50;
 }
